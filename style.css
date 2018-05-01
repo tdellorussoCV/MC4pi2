@@ -9,7 +9,7 @@ table { border:0px; border-collapse:collapse ; width:100%}
 td {vertical-align:top; padding:0px; }
 
 td, table, select,  input, textarea{
-	font-family: "DIN Next Regular", sans-serif;
+	font-family: "DIN Next Medium", sans-serif;
 	font-size:20px;
 	vertical-align:top;
 	line-height:24px;
@@ -20,10 +20,10 @@ html {
 	padding: 0;
 	}
 body { 
-	font: 75% DIN Next Medium, sans-serif;
+	font: 75% DIN Next Regular, sans-serif;
 	line-height: 1.88889;
 	color: #555753; 
-	background: #fff url(papyrus.jpg) no-repeat bottom right; 
+	background: #fff no-repeat bottom right; 
 	margin: 0; 
 	padding: 0;
 	}
@@ -34,34 +34,17 @@ p {
 h1{
 	Text Color: NULL
 	Background: #FFFFFF
-	Font: DIN NEXT Light
+	Font: DIN NEXT Medium
 	Size: 64px
 	Line Height: 1
 	}
-h3 { 
-	font: italic normal 1.4em georgia, sans-serif;
-	letter-spacing: 1px; 
-	margin-bottom: 0; 
-	color: #7D775C;
-	}
-a:link { 
-	font-weight: bold; 
-	text-decoration: none; 
-	color: #B7A5DF;
-	}
-a:visited { 
-	font-weight: bold; 
-	text-decoration: none; 
-	color: #D4CDDC;
-	}
-a:hover, a:active { 
-	text-decoration: underline; 
-	color: #9685BA;
-	}
-acronym {
-	border-bottom: none;
-	}
-
+h2{
+	Text Color: NULL
+	Background: #FFFFFF
+	Font: DIN NEXT Medium
+	Size: 48px
+	Line Height: 1
+}
 /*	BootStrap */
 
 * {box-sizing:border-box}
@@ -158,29 +141,3 @@ acronym {
   to {opacity: 1}
 }
 
-/* Buttons 
-
-Button style
-Rounded Rectangle: 3 pt stroke / 3 px corner radius
-Colour : #00A0D3 (Bright Blue Digita)
-Font: DIN NEXT LIGHT 16 pt #00A0D3
-Hover : Reverse color
-
-Button on Deep Blue background
-Rounded Rectangle: 3 pt stroke / 3 px corner radius
-Colour : #00A0D3
-Font : DIN NEXT LIGHT 16 pt #00A0D3
-Hover : DIN NEXT LIGHT 16 pt #FFFFFF / Rounded rectangle: 3 pt Stroke/ 3 px corner radius / colour : #00A0D3
-
-Button on Bright Blue background
-Rounded Rectangle: 3 pt stroke / 3 px corner radius
-Colour: #FFFFFF 
-Font: DIN NEXT LIGHT 16 pt #FFFFFF
-Hover: Reverse color
-*/
-button{
-	Rounded Rectangle: 3 pt stroke / 3 px corner radius
-	Colour : #00A0D3
-	Font : DIN NEXT LIGHT 16 pt #00A0D3
-	Hover : DIN NEXT LIGHT 16 pt #FFFFFF / Rounded rectangle: 3 pt Stroke/ 3 px corner radius / colour : #00A0D3
-	}
