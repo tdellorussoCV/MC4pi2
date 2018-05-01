@@ -10,17 +10,18 @@
 
 <body>
 
-	<table style="height:300px" align="center">
-		<tr>
-			<td>
-			<img src="/images/Commvault.jpg" alt="Commvault" style="banner" height="75" width="450">
-				<h1>MC4 Team KPI's </h1>
-				<h2><?php echo date('Y-m-d H:i:s'); ?></h2>
-			</td>
-		</tr>
-		
-	</table>
+	 <table style="height:300px" align="center">
+    <tr>
+      <td>
+      <img src="/images/Commvault.jpg" alt="Commvault" style="banner" height="75" width="450">
+        <h1>MC4 Team KPI's </h1>
+        <h2><?php echo date('Y-m-d H:i:s'); ?></h2>
+      </td>
+    </tr>
+  </table>
 
 	
+  </a>
+</div>
 </body>
 </html>
