@@ -12,12 +12,12 @@
 
 	<table style="height:300px" align="center">
 		<tr>
-			<td>
-			<img src="/images/Commvault.jpg" alt="Commvault" style="banner" height="75" width="450">
-				<h1>MC4 Team KPI's </h1>
-				<h2><?php echo date('Y-m-d H:i:s'); ?></h2>
-			</td>
-		</tr>
+      <td>
+      <img align="center" src="/images/Commvault.jpg" alt="Commvault" style="banner" height="75" width="450">
+        <h1><center>MC4 Team KPI's</center></h1>
+        <h2><center><?php echo date('Y-m-d H:i:s'); ?></center></h2>
+      </td>
+    </tr>
 		
 	</table>
 
