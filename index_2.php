@@ -24,20 +24,20 @@
 <div class="slideshow-container">
 
   <!-- Full-width images with number and caption text -->
-  <div class="mySlides fade">
+  <div align="center"class="mySlides fade">
     <!-- <div class="numbertext">1 / 3</div>  -->
     <img src="/slides/s_h04_hs200842.jpg" style="width:100%">
     <!-- <div class="text">Caption Text</div> -->
   </div>
 
-  <div class="mySlides fade">
+  <div align="center"class="mySlides fade">
     <!--  <div class="numbertext">2 / 3</div> -->
-    <img src="/slides/TedAnimal.jpg" style="width:100%" style="height:75%">
+    <img src="/slides/TedAnimal.jpg" style="width:65%" >
     <!-- <div class="text">Caption Two</div> -->
   </div>
-  <div class="mySlides fade">
+  <div align="center" class="mySlides fade">
     <!-- <div class="numbertext">3 / 3</div>-->
-    <img src="/slides/GoldenCrisps.jpeg" style="width:100%" style="height:75%">
+    <img src="/slides/GoldenCrisps.jpeg" style="width:65%">
     <!-- <div class="text">Caption Three</div> -->
   </div>
 
@@ -48,11 +48,11 @@
 <br> -->
 
 <!-- The dots/circles -->
-<!--<div style="text-align:center">
+<div style="text-align:center">
   <span class="dot" onclick="currentSlide(1)"></span> 
   <span class="dot" onclick="currentSlide(2)"></span> 
   <span class="dot" onclick="currentSlide(3)"></span> 
-</div>*/-->
+</div>
 
 <script>
 var slideIndex = 0;
@@ -72,7 +72,7 @@ function showSlides() {
     }
     slides[slideIndex-1].style.display = "block";  
     dots[slideIndex-1].className += " active";
-    setTimeout(showSlides, 20000); // Change image every 2 seconds
+    setTimeout(showSlides, 10000); // Change image every 10 seconds
 }
 </script>
 
