@@ -20,61 +20,68 @@
       </td>
     </tr>
   </table>
-<!-- Slideshow container -->
-<div class="slideshow-container">
 
-  <!-- Full-width images with number and caption text -->
-  <div align="center"class="mySlides fade">
-    <!-- <div class="numbertext">1 / 3</div>  -->
-    <img src="/slides/s_h04_hs200842.jpg" style="width:100%">
-    <!-- <div class="text">Caption Text</div> -->
-  </div>
+  <iframe src="" height="800" width="1000">
+    
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
 
-  <div align="center"class="mySlides fade">
-    <!--  <div class="numbertext">2 / 3</div> -->
-    <img src="/slides/TedAnimal.jpg" style="width:65%" >
-    <!-- <div class="text">Caption Two</div> -->
-  </div>
-  <div align="center" class="mySlides fade">
-    <!-- <div class="numbertext">3 / 3</div>-->
-    <img src="/slides/GoldenCrisps.jpeg" style="width:65%">
-    <!-- <div class="text">Caption Three</div> -->
-  </div>
+      <!-- Full-width images with number and caption text -->
+      <div align="center"class="mySlides fade">
+        <!-- <div class="numbertext">1 / 3</div>  -->
+        <img src="/slides/s_h04_hs200842.jpg" style="width:100%">
+        <!-- <div class="text">Caption Text</div> -->
+      </div>
 
-  <!-- Next and previous buttons 
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-</div>
-<br> -->
+      <div align="center"class="mySlides fade">
+        <!--  <div class="numbertext">2 / 3</div> -->
+        <img src="/slides/TedAnimal.jpg" style="width:65%" >
+        <!-- <div class="text">Caption Two</div> -->
+      </div>
+      <div align="center" class="mySlides fade">
+        <!-- <div class="numbertext">3 / 3</div>-->
+        <img src="/slides/GoldenCrisps.jpeg" style="width:65%">
+        <!-- <div class="text">Caption Three</div> -->
+      </div>
 
-<!-- The dots/circles -->
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(2)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span> 
-</div>
+      <!-- Next and previous buttons 
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br> -->
 
-<script>
-var slideIndex = 0;
-showSlides();
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
 
-function showSlides() {
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("dot");
-    for (i = 0; i < slides.length; i++) {
-       slides[i].style.display = "none";  
+    <script>
+    var slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+           slides[i].style.display = "none";  
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}    
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+        setTimeout(showSlides, 10000); // Change image every 10 seconds
     }
-    slideIndex++;
-    if (slideIndex > slides.length) {slideIndex = 1}    
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slides[slideIndex-1].style.display = "block";  
-    dots[slideIndex-1].className += " active";
-    setTimeout(showSlides, 10000); // Change image every 10 seconds
-}
-</script>
+    </script>
+
+  </iframe>
+
+
 
 
 </body>
