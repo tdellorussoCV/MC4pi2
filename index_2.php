@@ -21,6 +21,14 @@
     </tr>
   </table>
 
+<iframe src="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</iframe>
+
+
 <!-- Slideshow container -->
 <div class="slideshow-container">
 
@@ -44,9 +52,10 @@
 
   <!-- Next and previous buttons 
   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a> 
+    -->
 </div>
-<br> -->
+<br> 
 
 <!-- The dots/circles -->
 <div style="text-align:center">

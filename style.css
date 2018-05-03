@@ -44,10 +44,23 @@ h2{
 	Font: DIN NEXT Medium
 	Size: 48px
 	Line Height: 1
-}
-iframe{
-hieg
-}
+  }
+
+/* specific divs */
+.tvborder{
+    min-width: 470px;
+    width: 100%;
+    border-radius: 25px 25px 25px 25px;
+    border-color:#000000;
+    border-width: 10px;
+    }
+
+footer { 
+  text-align: center; 
+  }
+footer a:link, footer a:visited { 
+  margin-right: 20px ; 
+  }
 /*	BootStrap */
 
 * {box-sizing:border-box}
