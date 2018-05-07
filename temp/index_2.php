@@ -18,7 +18,20 @@
   </head>
 
   <body>
-
+  <!-- Banner table -->
+   <!-- <div class="container">
+    <table style="height:200px" align="center">
+            <tr>
+              <td>
+                <img align="center" src="C:\Users\tdellorusso\Documents\Webrot\MC4\MC4pi\images\Commvault.jpg" alt="Commvault" style="banner" height="75" width="450">
+                  <h1><center>MC4 Team KPI's</h1>
+                  <div class="container">
+                    <span id="clockspan" class="pull-right" style="font-size: 130%;color: #2f4e66;margin-top: 12px;margin-right: 10px;">Thursday May 3, 2018 6:17:37 PM</span></center>
+                  </div>
+              </td>
+          </tr>
+      </table>
+   </div> -->
     <!-- Banner table -->
     
       <table style="height:200px" align="center">
