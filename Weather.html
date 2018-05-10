@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+  <body>
+    <div class="container">
+      <div class="well well-md" style="background-color: skyblue">
+      <label>Location</label>
+      <p id="location"></p>
+      </div>
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+      <script>
+      jQuery(document).ready(function($) {
+      $.ajax({
+      url : "http://api.wunderground.com/api/347e65e73ff7ed15/geolookup/conditions/q/NJ/Tinton_Falls.json",
+      dataType : "jsonp",
+      success : function(parsed_json) {
+      var location = parsed_json['current_observation']['full'];
+      var temp_f = parsed_json['current_observation']['temp_f'];
+      document.getElementById("location").innerHTML = location.full;
+      });
+      });
+      });
+    </script>
+  </body>
+</html>
