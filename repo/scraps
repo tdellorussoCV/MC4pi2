@@ -1,0 +1,79 @@
+scraps
+<!-- <span style="display: block !important; width: 320px; text-align: center; font-family: sans-serif; font-size: 12px;">
+            <a href="http://www.wunderground.com/cgi-bin/findweather/getForecast?query=zmw:07753.3.99999&bannertypeclick=wu_clean2day" target="_blank" title="Tinton Falls, New Jersey Weather Forecast">
+                <img alt="Find more about Weather in Tinton Falls, NJ" src="http://weathersticker.wunderground.com/weathersticker/cgi-bin/banner/ban/wxBanner?bannertype=wu_clean2day_cond&airportcode=KBLM&ForcedCity=Tinton Falls&ForcedState=NJ&zip=07753&language=EN" width="300"/>
+            </a>
+            <br>
+                <a href="http://www.wunderground.com/cgi-bin/findweather/getForecast?query=zmw:07753.3.99999&bannertypeclick=wu_clean2day" style="font-family: sans-serif; font-size: 12px" target="_blank" title="Get latest Weather Forecast updates">
+                    The Weather!
+                </a>
+            </br>
+        </span>
+        <div class="aw-widget-current" data-language="en-us" data-locationkey="2208904" data-uid="awcc1525731024088" data-unit="f" data-useip="false" id="awcc1525731024088">
+        </div> -->
+
+        
+Image resizer code
+        <img class="innerSlide" src="{{mySlide.data.slide['0'].src}}" image-resizing 
+       image-Height="700px" image-Width="100%" />
+
+        // Image Resizer...
+        var imageResizing = angular.module('imageResizingModule', [])
+        // Image Resizing...
+        imageResizing.directive('imageResizing', [function() {
+            return {
+                restrict: 'A',
+                scope: {
+                    imageHeight: '@',
+                    imageWidth: '@',
+                },
+                link: function(scope, element, attrs) {
+                    element.bind('load', function() {
+                        var imageElement = element[0];
+                        console.log("Image Height:" + imageElement.height);
+                        console.log("Image Width:" + imageElement.width);
+                        var imageSizeCSSClass = {};
+                        imageSizeCSSClass["max-width"] = scope.imageWidth;
+                        imageSizeCSSClass["max-height"] = scope.imageHeight;
+                        $(imageElement).css(imageSizeCSSClass);
+                    });
+                }
+            };
+        }]);
+
+https://stackoverflow.com/questions/11194287/convert-a-directory-structure-in-the-filesystem-to-json-with-node-js
+
+
+        var fs = require('fs'),
+    path = require('path')
+
+function dirTree(filename) {
+    var stats = fs.lstatSync(filename),
+        info = {
+            path: filename,
+            name: path.basename(filename)
+        };
+
+    if (stats.isDirectory()) {
+        info.type = "folder";
+        info.children = fs.readdirSync(filename).map(function(child) {
+            return dirTree(filename + '/' + child);
+        });
+    } else {
+        // Assuming it's a file. In real life it could be a symlink or
+        // something else!
+        info.type = "file";
+    }
+
+    return info;
+}
+if (module.parent == undefined) {
+    // node dirTree.js ~/foo/bar
+    var util = require('util');
+    console.log(util.inspect(dirTree(process.argv[2]), false, null));
+}
+
+
+http://api.wunderground.com/api/347e65e73ff7ed15/conditions/q/NJ/Tinton_Falls.json
+
+http://api.wunderground.com/api/347e65e73ff7ed15/forecast/q/NJ/Tinton_Falls.json

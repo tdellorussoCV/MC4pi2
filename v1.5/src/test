@@ -1,0 +1,33 @@
+<a href="https://time.is/Reading,_United_Kingdom" id="time_is_link" rel="nofollow" style="font-size:36px">EMEA:</a>
+<span id="Reading__United_Kingdom_z716" style="font-size:36px"></span>
+<script src="//widget.time.is/t.js"></script>
+<script>
+time_is_widget.init({Reading__United_Kingdom_z716:{}});
+</script>
+
+
+<a href="https://time.is/Tinton_Falls" id="time_is_link" rel="nofollow" style="font-size:36px">Tinton Falls:</a>
+<span id="Tinton_Falls_z161" style="font-size:36px"></span>
+<script src="//widget.time.is/t.js"></script>
+<script>
+time_is_widget.init({Tinton_Falls_z161:{}});
+</script>
+
+
+<!-- <ul class="nav navbar-nav  ">
+      <li class="navheader">...</li>
+      <li class="navheader">MC4</li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li class="navheader">
+        <span id="clock" class="clock">loading ...</span>
+
+        <script type="text/javascript">
+          $('#clock').fitText(1.9);
+          function update() {
+            $('#clock').html(moment().format('D MMMM YYYY H:mm:ss'));
+          } 
+          setInterval(update, 1000);
+        </script>
+      </li>
+    </ul> -->

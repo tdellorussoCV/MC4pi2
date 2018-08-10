@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Dosis:300' rel='stylesheet' type='text/css'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>  
+</head>
+  <body>
+    
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+            var canvas = document.getElementById("canvas");
+            var ctx = canvas.getContext("2d");
+            var radius = canvas.height / 2;
+            ctx.translate(radius, radius);
+            radius = radius * 0.90
+            setInterval(drawClock, 300000);
+
+            function drawClock() {
+              drawFace(ctx, radius);
+              drawNumbers(ctx, radius);
+              drawTime(ctx, radius);
+            }
+
+            
+</script>
+<script type="text/javascript">
+  jQuery(document).ready(function($) {
+  $.ajax({
+  url : "http://api.wunderground.com/api/347e65e73ff7ed15/geolookup/forecast/q/NJ/Tinton_Falls.json",
+  dataType : "jsonp",
+  success : function(parsed_json) {
+  var location = parsed_json['location']['city'];
+  //var temp_f = parsed_json['current_observation']['temp_f'];
+  //alert("Current temperature in " + location + " is: ");
+  }
+  });
+});
+</script>
+<div class="well">
+  <canvas class="rounded" id="canvas" width="600" height="300" style="background-color: #0073B1"></canvas>  
+</div> 
+<!-- <a href='http://www.wunderground.com/cgi-bin/findweather/hdfForecast?query=07724&bannertypeclick=golfv2'><img src='http://weathersticker.wunderground.com/cgi-bin/banner/ban/wxBanner?zip=07724&bannertype=golfv2_cond&course=Suneagles Golf Club' border='1' alt='Click for forecast!' /></a> -->
+
+  </body>
+</html>

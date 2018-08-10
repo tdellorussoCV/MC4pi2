@@ -1,0 +1,162 @@
+<div class="row">
+    <div class="col-sm-4 nospace">
+        <div class="container bottomLeft nospace">
+            <h1 class="bottomleft nospace">
+                Best Support Period.
+            </h1>
+        </div>
+    </div>
+    <div class="col-sm-4 nospace">
+        <div class="jumbotron">
+            <div class="row weatherrow">
+                <div class="weathermain rounded col-sm-4">
+                    <p id="weathercity">
+                        {{myWeather.data.current_observation.display_location.city}}
+                    </p>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <img id="weatherimg" src="{{myWeather.data.current_observation.icon_url}}">
+                            </img>
+                            <h2 class="nospace" id="tempf">
+                                {{myWeather.data.current_observation.temp_f}}
+                            </h2>
+                        </div>
+                        <div class="col-sm-6">
+                            <h6 class="nospace weatherobs">
+                                {{myWeather.data.current_observation.weather}}
+                            </h6>
+                            <p class="nospace">
+                                UV:
+                                <strong>
+                                    {{myWeather.data.current_observation.UV}}
+                                </strong>
+                            </p>
+                            <p class="nospace">
+                                Feels Like:
+                                <strong>
+                                    {{myWeather.data.current_observation.feelslike_f}} F
+                                </strong>
+                            </p>
+                        </div>
+                    </div>
+                    <!-- <div class="row">
+                        <div class="col-sm-6">
+                            
+                        </div>
+                        <div class="col-sm-6" id="weathertext">
+                            <p class="nospace">
+                                UV:
+                                <strong>
+                                    {{myWeather.data.current_observation.UV}}
+                                </strong>
+                            </p>
+                            <p class="nospace">
+                                Feels Like:
+                                <strong>
+                                    {{myWeather.data.current_observation.feelslike_f}} F
+                                </strong>
+                            </p>
+                        </div>
+                    </div> -->
+                </div>
+                <div class="weatherday2 rounded col-sm-8">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <ul class="nospace">
+                                <li>
+                                    <h5>
+                                        {{myForecast.data.forecast.simpleforecast.forecastday[1].date.weekday}}
+                                    </h5>
+                                </li>
+                                <li class="weatherobs">
+                                    <h6 class=" nospace ">
+                                        {{myForecast.data.forecast.simpleforecast.forecastday[1].conditions}}
+                                    </h6>
+                                </li>
+                                <li>
+                                    <img src="{{myForecast.data.forecast.simpleforecast.forecastday[1].icon_url}}"/>
+                                </li>
+                                <li>
+                                    High :{{myForecast.data.forecast.simpleforecast.forecastday[1].high.fahrenheit}}
+                                </li>
+                                <li>
+                                    Low :{{myForecast.data.forecast.simpleforecast.forecastday[1].low.fahrenheit}}
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-4">
+                            <ul class="nospace">
+                                <li>
+                                    <h5>
+                                        {{myForecast.data.forecast.simpleforecast.forecastday[2].date.weekday}}
+                                    </h5>
+                                </li>
+                                <li class="weatherobs">
+                                    <h6 class=" nospace">
+                                        {{myForecast.data.forecast.simpleforecast.forecastday[2].conditions}}
+                                    </h6>
+                                </li>
+                                <li>
+                                    <img src="{{myForecast.data.forecast.simpleforecast.forecastday[2].icon_url}}"/>
+                                </li>
+                                <li>
+                                    High :{{myForecast.data.forecast.simpleforecast.forecastday[2].high.fahrenheit}}
+                                </li>
+                                <li>
+                                    Low :{{myForecast.data.forecast.simpleforecast.forecastday[2].low.fahrenheit}}
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-4">
+                            <ul class="nospace">
+                                <li>
+                                    <h5>
+                                        {{myForecast.data.forecast.simpleforecast.forecastday[3].date.weekday}}
+                                    </h5>
+                                </li>
+                                <li class="weatherobs">
+                                    <h6 class=" nospace">
+                                        {{myForecast.data.forecast.simpleforecast.forecastday[3].conditions}}
+                                    </h6>
+                                </li>
+                                <li>
+                                    <img src="{{myForecast.data.forecast.simpleforecast.forecastday[3].icon_url}}"/>
+                                </li>
+                                <li>
+                                    High :{{myForecast.data.forecast.simpleforecast.forecastday[3].high.fahrenheit}}
+                                </li>
+                                <li>
+                                    Low :{{myForecast.data.forecast.simpleforecast.forecastday[3].low.fahrenheit}}
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-4 nospace">
+        <ul class="nospace">
+            <li>
+                <h1 class="bottomright nospace">
+                    {{myMod.data.message.head}}
+                </h1>
+            </li>
+            <li>
+                <h3 class="bottomright nospace">
+                    {{myMod.data.message.body1}}
+                </h3>
+            </li>
+            <li>
+                <h3 class="bottomright nospace">
+                    {{myMod.data.message.body2}}
+                </h3>
+            </li>
+            <li>
+                <h3 class="bottomright nospace">
+                    {{myMod.data.message.body3}}
+                </h3>
+            </li>
+        </ul>
+    </div>
+</div>

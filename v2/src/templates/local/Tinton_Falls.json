@@ -1,0 +1,94 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "conditions": 1
+  }
+	}
+  ,	"current_observation": {
+		"image": {
+		"url":"http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"Tinton Falls, NJ",
+		"city":"Tinton Falls",
+		"state":"NJ",
+		"state_name":"New Jersey",
+		"country":"US",
+		"country_iso3166":"US",
+		"zip":"07753",
+		"magic":"3",
+		"wmo":"99999",
+		"latitude":"40.27000046",
+		"longitude":"-74.09999847",
+		"elevation":"29.9"
+		},
+		"observation_location": {
+		"full":"Belmar-Farmingdale, New Jersey",
+		"city":"Belmar-Farmingdale",
+		"state":"New Jersey",
+		"country":"US",
+		"country_iso3166":"US",
+		"latitude":"40.19",
+		"longitude":"-74.12",
+		"elevation":"157 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"KBLM",
+		"observation_time":"Last Updated on July 20, 10:56 AM EDT",
+		"observation_time_rfc822":"Fri, 20 Jul 2018 10:56:00 -0400",
+		"observation_epoch":"1532098560",
+		"local_time_rfc822":"Fri, 20 Jul 2018 11:32:51 -0400",
+		"local_epoch":"1532100771",
+		"local_tz_short":"EDT",
+		"local_tz_long":"America/New_York",
+		"local_tz_offset":"-0400",
+		"weather":"Partly Cloudy",
+		"temperature_string":"77 F (25 C)",
+		"temp_f":77,
+		"temp_c":25,
+		"relative_humidity":"66%",
+		"wind_string":"From the ESE at 9 MPH",
+		"wind_dir":"ESE",
+		"wind_degrees":120,
+		"wind_mph":9,
+		"wind_gust_mph":0,
+		"wind_kph":15,
+		"wind_gust_kph":0,
+		"pressure_mb":"1023",
+		"pressure_in":"30.20",
+		"pressure_trend":"+",
+		"dewpoint_string":"65 F (18 C)",
+		"dewpoint_f":65,
+		"dewpoint_c":18,
+		"heat_index_string":"NA",
+		"heat_index_f":"NA",
+		"heat_index_c":"NA",
+		"windchill_string":"NA",
+		"windchill_f":"NA",
+		"windchill_c":"NA",
+		"feelslike_string":"77 F (25 C)",
+		"feelslike_f":"77",
+		"feelslike_c":"25",
+		"visibility_mi":"10.0",
+		"visibility_km":"16.1",
+		"solarradiation":"--",
+		"UV":"8","precip_1hr_string":"-9999.00 in (-9999.00 mm)",
+		"precip_1hr_in":"-9999.00",
+		"precip_1hr_metric":"--",
+		"precip_today_string":"0.00 in (0.0 mm)",
+		"precip_today_in":"0.00",
+		"precip_today_metric":"0.0",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"forecast_url":"http://www.wunderground.com/US/NJ/Tinton_Falls.html",
+		"history_url":"http://www.wunderground.com/history/airport/KBLM/2018/7/20/DailyHistory.html",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=40.18999863,-74.12000275",
+		"nowcast":""
+	}
+}
