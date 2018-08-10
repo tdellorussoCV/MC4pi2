@@ -20,6 +20,9 @@ div p {
 }
 /*Class*/
 
+.bottomrow{
+    max-width: 100%
+}
 .bottomLeft {
     /*margin: 0;*/
     font-size: 3em;

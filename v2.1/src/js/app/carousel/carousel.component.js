@@ -8,12 +8,12 @@ component('carousel', {
         $scope.ind = 0;
         // setting for timer to switch slides
         //getting images
-        $http.get("http://172.19.21.99/slides/carousel.json").then(function(res) {
+        $http.get("templates/local/carousel.json").then(function(res) {
             $scope.imgSrc = res.data;
             // console.log(res.data);
         });
         $interval(function(){
-            $http.get("http://172.19.21.99/slides/carousel.json").then(function(res) {
+            $http.get("templates/local/carousel.json").then(function(res) {
             $scope.imgSrc = res.data;
             // console.log(res.data);
         });
