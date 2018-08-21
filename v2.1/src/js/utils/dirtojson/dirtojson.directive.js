@@ -2,8 +2,8 @@
 angular.module('dirtojson').
 directive('dirtojson', {
     controller: function($scope, $interval) {
-        var fs = require('fs')
-        var path = require('path')
+        // var fs = require('fs')
+        // var path = require('path')
         var argCount = process.argv.length
         var lastArg = process.argv[argCount - 1]
         // From

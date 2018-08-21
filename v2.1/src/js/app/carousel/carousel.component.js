@@ -10,7 +10,7 @@ component('carousel', {
         //getting images
         $http.get("templates/local/carousel.json").then(function(res) {
             $scope.imgSrc = res.data;
-            // console.log(res.data);
+            console.log(res.data);
         });
         $interval(function(){
             $http.get("templates/local/carousel.json").then(function(res) {
