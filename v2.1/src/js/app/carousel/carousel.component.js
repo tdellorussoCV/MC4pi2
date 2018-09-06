@@ -7,6 +7,8 @@ component('carousel', {
         //var for set initial index number in array
         $scope.ind = 0;
         // setting for timer to switch slides
+        //setting random for no cache
+        var random = (new Date()).toString();
         //getting images
         $http.get("templates/local/carousel.json").then(function(res) {
             $scope.imgSrc = res.data;
@@ -15,7 +17,7 @@ component('carousel', {
         $interval(function(){
             $http.get("templates/local/carousel.json").then(function(res) {
             $scope.imgSrc = res.data;
-            // console.log(res.data);
+            console.log(res.data);
         });
         },3600000);
         $interval(function() {
@@ -26,6 +28,7 @@ component('carousel', {
             }
             // console.log($scope.ind, $scope.imgSrc.length);
         }, 15000);
+		
 
         
         // Image Resizer...
