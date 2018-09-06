@@ -6,18 +6,21 @@ component('carousel', {
         $scope.imgSrc = [];
         //var for set initial index number in array
         $scope.ind = 0;
-        // setting for timer to switch slides
+        //setting random to prevent disk caching 
+        $scope.rndMath = new Date().getTime();
         //setting random for no cache
-        $http.get("templates/local/carousel.json").then(function(res) {
+        $http.get("http://172.19.21.99:81/json/carousel.json").then(function(res,) {
             $scope.imgSrc = res.data;
             console.log(res.data);
         });
-        $interval(function(){
-            $http.get("templates/local/carousel.json").then(function(res) {
+        // setting for timer to switch slides
+        $interval(function(){            
+            $http.get("http://172.19.21.99:81/json/carousel.json").then(function(res) {
             $scope.imgSrc = res.data;
             console.log(res.data);
+            $scope.rndMath = new Date().getTime();
         });
-        },3600000);
+        },300000);
         $interval(function() {
             if ($scope.ind < ($scope.imgSrc.length - 1)) {
                 $scope.ind++;
