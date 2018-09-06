@@ -8,8 +8,6 @@ component('carousel', {
         $scope.ind = 0;
         // setting for timer to switch slides
         //setting random for no cache
-        var random = (new Date()).toString();
-        //getting images
         $http.get("templates/local/carousel.json").then(function(res) {
             $scope.imgSrc = res.data;
             console.log(res.data);
