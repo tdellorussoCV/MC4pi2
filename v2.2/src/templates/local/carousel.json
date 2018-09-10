@@ -1,0 +1,30 @@
+[{
+    "id": 1,
+    "name": "Slide 1",
+    "path": "http://172.19.21.99:81/slides/slide1.png"
+}, 
+{
+    "id": 2,
+    "name": "Slide 2",
+    "path": "http://172.19.21.99:81/slides/slide2.png"
+}, 
+{
+    "id": 3,
+    "name": "Slide 3",
+    "path": "http://172.19.21.99:81/slides/slide3.png"
+}, 
+{
+    "id": 4,
+    "name": "Slide 4",
+    "path": "http://172.19.21.99:81/slides/slide4.png"
+}, 
+{
+    "id": 5,
+    "name": "Slide 5",
+    "path": "http://172.19.21.99:81/slides/slide5.png"
+}, 
+{
+    "id": 6,
+    "name": "Slide 6",
+    "path": "http://172.19.21.99:81/slides/slide6.png"
+}]
