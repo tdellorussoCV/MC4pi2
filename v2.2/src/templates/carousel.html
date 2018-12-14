@@ -3,7 +3,7 @@
         <div id="slide">
             <div class="img-container"  ng-switch on="videoState">
                     <video ng-switch-when="true" id="a" autoplay="" controls="" height="700px" width="100%">
-                    <source src="/slides/NEWSBREIF11-09-2018.mp4" type="video/mp4">
+                    <source ng-src="{{imgUrl}}{{imgSrc[ind].Name}}?{{rndMath}}" type="video/mp4">
                     </source>
                 </video>
                 <img ng-switch-when="false" id="b" alt="{{imgSrc[ind].Name}}" class="innerSlide" image-height="700px" image-resizing="" image-width="100%" ng-src="{{imgUrl}}{{imgSrc[ind].Name}}?{{rndMath}}"/>
