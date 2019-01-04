@@ -1,0 +1,13 @@
+<div class="row nospace">
+    <div class="col-sm-12 frame nospace">
+        <div id="slide">
+            <div class="img-container"  ng-switch on="videoState">
+                    <video ng-switch-when="true" id="a" autoplay="" controls="" height="700px" width="100%">
+                    <source ng-src="{{imgUrl}}{{imgSrc[ind].Name}}?{{rndMath}}" type="video/mp4">
+                    </source>
+                </video>
+                <img ng-switch-when="false" id="b" alt="{{imgSrc[ind].Name}}" class="innerSlide" image-height="700px" image-resizing="" image-width="100%" ng-src="{{imgUrl}}{{imgSrc[ind].Name}}?{{rndMath}}"/>
+            </div>
+        </div>
+    </div>
+</div>

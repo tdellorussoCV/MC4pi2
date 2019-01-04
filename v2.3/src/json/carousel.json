@@ -1,0 +1,49 @@
+[{
+    "id": 1,
+    "Name": "NEWSBREIF11-09-2018.mp4",
+    "Path": "http://172.19.21.99:81/slides/NEWSBREIF11-09-2018.mp4",
+    "Interval": "120000",
+    "Extension":".mp4"
+},
+{
+    "id": 2,
+    "Name": "slide1.png",
+    "Path": "http://172.19.21.99:81/slides/slide1.png",
+    "Interval": "15000",
+    "Extension":".png"    
+}, 
+{
+    "id": 3,
+    "Name": "slide2.png",
+    "Path": "http://172.19.21.99:81/slides/slide2.png",
+    "Interval": "15000",
+    "Extension":".png"
+}, 
+{
+    "id": 4,
+    "Name": "slide3.png",
+    "Path": "http://172.19.21.99:81/slides/slide3.png",
+    "Interval": "15000",
+    "Extension":".png"
+}, 
+{
+    "id": 5,
+    "Name": "slide4.png",
+    "Path": "http://172.19.21.99:81/slides/slide4.png",
+    "Interval": "15000",
+    "Extension":".png"
+}, 
+{
+    "id": 6,
+    "Name": "slide5.png",
+    "Path": "http://172.19.21.99:81/slides/slide5.png",
+    "Interval": "15000",
+    "Extension":".png"
+}, 
+{
+    "id": 7,
+    "Name": "slide6.png",
+    "Path": "http://172.19.21.99:81/slides/slide6.png",
+    "Interval": "15000",
+    "Extension":".png"
+}]
