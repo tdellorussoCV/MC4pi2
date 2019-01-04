@@ -109,6 +109,9 @@ div p {
     width: 100%;
     border-width: 1px;
 }
+#news{
+    padding: 0;
+}
 #slide{
     width: 100%;
     height: 700px;

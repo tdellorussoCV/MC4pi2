@@ -3,8 +3,8 @@
 angular.module('cvsupport', 
 	[
 	// external
-		// 'ngroute',
-		// 'ngresource',
+		//'ngroute',
+		//'ngresource',
 	// internal
 		'header',
 		'carousel',

@@ -1,9 +1,8 @@
 <div class="row bottomrow">
     <div class="col-sm-4 nospace">
         <div class="container bottomLeft nospace">
-            <h1 class="bottomleft nospace">
-                Best Support Period.
-            </h1>
+            <div class="nospace jumbotron" id="news">
+            </div>
         </div>
     </div>
     <div class="col-sm-4 nospace">
@@ -39,25 +38,6 @@
                             </p>
                         </div>
                     </div>
-                    <!-- <div class="row">
-                        <div class="col-sm-6">
-                            
-                        </div>
-                        <div class="col-sm-6" id="weathertext">
-                            <p class="nospace">
-                                UV:
-                                <strong>
-                                    {{myWeather.data.current_observation.UV}}
-                                </strong>
-                            </p>
-                            <p class="nospace">
-                                Feels Like:
-                                <strong>
-                                    {{myWeather.data.current_observation.feelslike_f}} F
-                                </strong>
-                            </p>
-                        </div>
-                    </div> -->
                 </div>
                 <div class="weatherday2 rounded col-sm-8">
                     <div class="row">
@@ -136,29 +116,29 @@
         </div>
     </div>
     <div class="col-sm-4 nospace">
-       <div class="container nospace">
+        <div class="container nospace">
             <ul class="nospace">
-            <li>
-                <h1 class="bottomright nospace">
-                    {{myMod.data.message.head}}
-                </h1>
-            </li>
-            <li>
-                <h3 class="bottomright nospace">
-                    {{myMod.data.message.body1}}
-                </h3>
-            </li>
-            <li>
-                <h3 class="bottomright nospace">
-                    {{myMod.data.message.body2}}
-                </h3>
-            </li>
-            <li>
-                <h3 class="bottomright nospace">
-                    {{myMod.data.message.body3}}
-                </h3>
-            </li>
-        </ul>
-       </div>
+                <li>
+                    <h1 class="bottomright nospace">
+                        {{myMod.data.message.head}}
+                    </h1>
+                </li>
+                <li>
+                    <h3 class="bottomright nospace">
+                        {{myMod.data.message.body1}}
+                    </h3>
+                </li>
+                <li>
+                    <h3 class="bottomright nospace">
+                        {{myMod.data.message.body2}}
+                    </h3>
+                </li>
+                <li>
+                    <h3 class="bottomright nospace">
+                        {{myMod.data.message.body3}}
+                    </h3>
+                </li>
+            </ul>
+        </div>
     </div>
 </div>
