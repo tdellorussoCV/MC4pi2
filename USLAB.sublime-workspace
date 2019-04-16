@@ -1,0 +1,767 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Set",
+				"setInt"
+			],
+			[
+				"dy",
+				"dynInt"
+			],
+			[
+				"t",
+				"toggle\t.toggle() (show/hide)"
+			],
+			[
+				"viedo",
+				"videoState"
+			],
+			[
+				"vide",
+				"videochk"
+			],
+			[
+				"vid",
+				"videoState"
+			],
+			[
+				"a",
+				"attr\t.attr() - multiple"
+			],
+			[
+				"in",
+				"interval"
+			],
+			[
+				"col",
+				"col-sm-4"
+			],
+			[
+				"border",
+				"border-right\tproperty"
+			],
+			[
+				"bor",
+				"border-color\tproperty"
+			],
+			[
+				"bacground",
+				"background-color\tproperty"
+			],
+			[
+				"D",
+				"Date"
+			],
+			[
+				"ne",
+				"newYork"
+			],
+			[
+				"to",
+				"toLocaleTimeString"
+			],
+			[
+				"the",
+				"theTime"
+			],
+			[
+				"f",
+				"flex-row-reverse"
+			],
+			[
+				"nav",
+				"navbar"
+			],
+			[
+				"class",
+				"ng-class\tAngularJS"
+			],
+			[
+				"pa",
+				"padding-top\tproperty"
+			],
+			[
+				"font-s",
+				"font-size\tproperty"
+			],
+			[
+				"pull",
+				"pull-right"
+			],
+			[
+				"al",
+				"align-items\tproperty"
+			],
+			[
+				"ba",
+				"background-image\tproperty"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"magin",
+				"margin-bottom\tproperty"
+			],
+			[
+				"vert",
+				"vertical-align\tproperty"
+			],
+			[
+				"height",
+				"min-height\tproperty"
+			],
+			[
+				"pu",
+				"pull-left"
+			],
+			[
+				"bac",
+				"background-color\tproperty"
+			],
+			[
+				"BOOTSTRAP",
+				"bootstrap"
+			],
+			[
+				"cen",
+				"center"
+			],
+			[
+				"fo",
+				"footer\tTag"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"no",
+				"noscript\tTag"
+			],
+			[
+				"l",
+				"li\tTag"
+			],
+			[
+				"d",
+				"div\tTag"
+			],
+			[
+				"b",
+				"border"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "Microsoft Windows [Version 10.0.17763.379]                                                                                                          \n(c) 2018 Microsoft Corporation. All rights reserved.                                                                                                \n                                                                                                                                                    \nC:\\Users\\tdellorusso\\OneDrive - Commvault\\UsSupportLabChange\\ussuplabchange>ng serve                                                                \n** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **                                   \n                                                                                                                                                    \nDate: 2019-04-04T17:39:59.438Z                                                                                                                      \nHash: d784fcad058123293c26                                                                                                                          \nTime: 18844ms                                                                                                                                       \nchunk {es2015-polyfills} es2015-polyfills.js, es2015-polyfills.js.map (es2015-polyfills) 284 kB [initial] [rendered]                                \nchunk {main} main.js, main.js.map (main) 14.4 kB [initial] [rendered]                                                                               \nchunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 236 kB [initial] [rendered]                                                            \nchunk {runtime} runtime.js, runtime.js.map (runtime) 6.08 kB [entry] [rendered]                                                                     \nchunk {styles} styles.js, styles.js.map (styles) 1.14 MB [initial] [rendered]                                                                       \nchunk {vendor} vendor.js, vendor.js.map (vendor) 3.77 MB [initial] [rendered]                                                                       \ni ｢wdm｣: Compiled successfully.                                                                                                                     \n^CTerminate batch job (Y/N)? y                                                                                                                      \n                                                                                                                                                    \nC:\\Users\\tdellorusso\\OneDrive - Commvault\\UsSupportLabChange\\ussuplabchange>npm install --save moment@latest                                        \n+ moment@2.24.0                                                                                                                                     \nadded 1 package from 6 contributors and audited 42612 packages in 11.595s                                                                           \nfound 0 vulnerabilities                                                                                                                             \n                                                                                                                                                    \n                                                                                                                                                    \nC:\\Users\\tdellorusso\\OneDrive - Commvault\\UsSupportLabChange\\ussuplabchange>ng serve                                                                \n** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **                                   \n                                                                                                                                                    \nDate: 2019-04-04T17:41:46.721Z                                                                                                                      \nHash: d784fcad058123293c26                                                                                                                          \nTime: 16380ms                                                                                                                                       \nchunk {es2015-polyfills} es2015-polyfills.js, es2015-polyfills.js.map (es2015-polyfills) 284 kB [initial] [rendered]                                \nchunk {main} main.js, main.js.map (main) 14.4 kB [initial] [rendered]                                                                               \nchunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 236 kB [initial] [rendered]                                                            \nchunk {runtime} runtime.js, runtime.js.map (runtime) 6.08 kB [entry] [rendered]                                                                     \nchunk {styles} styles.js, styles.js.map (styles) 1.14 MB [initial] [rendered]                                                                       \nchunk {vendor} vendor.js, vendor.js.map (vendor) 3.77 MB [initial] [rendered]                                                                       \ni ｢wdm｣: Compiled successfully.                                                                                                                     \ni ｢wdm｣: Compiling...                                                                                                                               \n                                                                                                                                                    \nDate: 2019-04-04T17:44:52.471Z - Hash: 6b6a75da661ea0025f37 - Time: 3343ms                                                                          \n5 unchanged chunks                                                                                                                                  \nchunk {main} main.js, main.js.map (main) 14.4 kB [initial] [rendered]                                                                               \ni ｢wdm｣: Compiled successfully.                                                                                                                     \ni ｢wdm｣: Compiling...                                                                                                                               \n 95% emitting CopyPlugini ｢wdm｣: wait until bundle finished: /                                                                                      \n                                                                                                                                                    \nDate: 2019-04-04T17:44:53.020Z - Hash: 6b6a75da661ea0025f37 - Time: 306ms                                                                           \n6 unchanged chunks                                                                                                                                  \ni ｢wdm｣: Compiled successfully.                                                                                                                     \n                                                                                                                                                    \nERROR in src/app/header/header.component.ts(9,13): error TS2304: Cannot find name 'moment'.                                                         \n                                                                                                                                                    \n                                                                                                                                                    \nERROR in src/app/header/header.component.ts(9,13): error TS2304: Cannot find name 'moment'.                                                         \n                                                                                                                                                    \ni ｢wdm｣: Compiling...                                                                                                                               \n                                                                                                                                                    \nDate: 2019-04-04T17:55:11.132Z - Hash: 6b6a75da661ea0025f37 - Time: 216ms                                                                           \n6 unchanged chunks                                                                                                                                  \ni ｢wdm｣: Compiled successfully.                                                                                                                     \ni ｢wdm｣: Compiling...                                                                                                                               \n                                                                                                                                                    \nDate: 2019-04-04T19:39:48.340Z - Hash: 6b6a75da661ea0025f37 - Time: 807ms                                                                           \n6 unchanged chunks                                                                                                                                  \ni ｢wdm｣: Compiled successfully.                                                                                                                     \ni ｢wdm｣: Compiling...                                                                                                                               \ni ｢wdm｣: wait until bundle finished: /                                                                                                              \n                                                                                                                                                    \nDate: 2019-04-04T19:39:48.898Z - Hash: 6b6a75da661ea0025f37 - Time: 299ms                                                                           \n6 unchanged chunks                                                                                                                                  \ni ｢wdm｣: Compiled successfully.                                                                                                                     \ni ｢wdm｣: Compiling...                                                                                                                               \ni ｢wdm｣: wait until bundle finished: /polyfills.js                                                                                                  \ni ｢wdm｣: wait until bundle finished: /runtime.js                                                                                                    \n 95% emitting CopyPlugini ｢wdm｣: wait until bundle finished: /styles.js                                                                             \ni ｢wdm｣: wait until bundle finished: /vendor.js                                                                                                     \ni ｢wdm｣: wait until bundle finished: /main.js                                                                                                       \n                                                                                                                                                    \nDate: 2019-04-04T19:39:49.380Z - Hash: 6b6a75da661ea0025f37 - Time: 255ms                                                                           \n6 unchanged chunks                                                                                                                                  \ni ｢wdm｣: Compiled successfully.                                                                                                                     \n                                                                                                                                                    \nERROR in src/app/header/header.component.ts(9,13): error TS2304: Cannot find name 'moment'.                                                         \n                                                                                                                                                    \n                                                                                                                                                    \nERROR in src/app/header/header.component.ts(9,13): error TS2304: Cannot find name 'moment'.                                                         \n                                                                                                                                                    \n                                                                                                                                                    \nERROR in src/app/header/header.component.ts(9,13): error TS2304: Cannot find name 'moment'.                                                         \n                                                                                                                                                    \ni ｢wdm｣: Compiling...                                                                                                                               \n                                                                                                                                                    \nDate: 2019-04-04T19:40:15.553Z - Hash: 188dc793110b200f97f4 - Time: 206ms                                                                           \n6 unchanged chunks                                                                                                                                  \n                                                                                                                                                    \nERROR in src/app/header/header.component.ts(2,1): error TS1128: Declaration or statement expected.                                                  \n                                                                                                                                                    \ni ｢wdm｣: Failed to compile.                                                                                                                         \n                                                                                                                                                    \nERROR in src/app/header/header.component.ts(9,4): error TS2390: Constructor implementation is missing.                                              \n                                                                                                                                                    \ni ｢wdm｣: Compiling...                                                                                                                               \n                                                                                                                                                    \nDate: 2019-04-04T19:40:16.821Z - Hash: 188dc793110b200f97f4 - Time: 234ms                                                                           \n6 unchanged chunks                                                                                                                                  \n                                                                                                                                                    \nERROR in src/app/header/header.component.ts(2,1): error TS1128: Declaration or statement expected.                                                  \n                                                                                                                                                    \ni ｢wdm｣: Failed to compile.                                                                                                                         \n                                                                                                                                                    \nERROR in src/app/header/header.component.ts(9,4): error TS2390: Constructor implementation is missing.                                              \n                                                                                                                                                    \ni ｢wdm｣: Compiling...                                                                                                                               \n                                                                                                                                                    \nDate: 2019-04-04T19:40:30.129Z - Hash: b82c953b8dbb80e122f1 - Time: 249ms                                                                           \n5 unchanged chunks                                                                                                                                  \nchunk {main} main.js, main.js.map (main) 14.3 kB [initial] [rendered]                                                                               \ni ｢wdm｣: Compiled successfully.                                                                                                                     \ni ｢wdm｣: Compiling...                                                                                                                               \n                                                                                                                                                    \nERROR in src/app/header/header.component.ts(9,4): error TS2390: Constructor implementation is missing.                                              \n                                                                                                                                                    \n                                                                                                                                                    \nDate: 2019-04-04T19:40:31.201Z - Hash: b82c953b8dbb80e122f1 - Time: 279ms                                                                           \n6 unchanged chunks                                                                                                                                  \ni ｢wdm｣: Compiled successfully.                                                                                                                     \n                                                                                                                                                    \nERROR in src/app/header/header.component.ts(9,4): error TS2390: Constructor implementation is missing.                                              \n                                                                                                                                                    \ni ｢wdm｣: Compiling...                                                                                                                               \n                                                                                                                                                    \nDate: 2019-04-04T19:50:01.833Z - Hash: b82c953b8dbb80e122f1 - Time: 275ms                                                                           \n6 unchanged chunks                                                                                                                                  \ni ｢wdm｣: Compiled successfully.                                                                                                                     \ni ｢wdm｣: Compiling...                                                                                                                               \n 95% emitting CopyPlugin                                                                                                                            \nERROR in src/app/header/header.component.ts(9,4): error TS2390: Constructor implementation is missing.                                              \n                                                                                                                                                    \n                                                                                                                                                    \nDate: 2019-04-04T19:50:02.616Z - Hash: b82c953b8dbb80e122f1 - Time: 307ms                                                                           \n6 unchanged chunks                                                                                                                                  \ni ｢wdm｣: Compiled successfully.                                                                                                                     \n                                                                                                                                                    \nERROR in src/app/header/header.component.ts(9,4): error TS2390: Constructor implementation is missing.                                              \n                                                                                                                                                    \ni ｢wdm｣: Compiling...                                                                                                                               \n 70% building 80/80 modules 0 active                                                                                                                \nERROR in src/app/header/header.component.ts(10,11): error TS2304: Cannot find name '$scope'.                                                        \nsrc/app/header/header.component.ts(12,4): error TS2390: Constructor implementation is missing.                                                      \n                                                                                                                                                    \n                                                                                                                                                    \nDate: 2019-04-04T20:23:58.693Z - Hash: 33976a34906b966d0527 - Time: 3278ms                                                                          \n4 unchanged chunks                                                                                                                                  \nchunk {main} main.js, main.js.map (main) 28.1 kB [initial] [rendered]                                                                               \nchunk {vendor} vendor.js, vendor.js.map (vendor) 4.34 MB [initial] [rendered]                                                                       \ni ｢wdm｣: Compiled successfully.                                                                                                                     \ni ｢wdm｣: Compiling...                                                                                                                               \n                                                                                                                                                    \nDate: 2019-04-04T20:23:59.238Z - Hash: 33976a34906b966d0527 - Time: 323ms                                                                           \n6 unchanged chunks                                                                                                                                  \ni ｢wdm｣: Compiled successfully.                                                                                                                     \n                                                                                                                                                    \nERROR in src/app/header/header.component.ts(10,11): error TS2304: Cannot find name '$scope'.                                                        \nsrc/app/header/header.component.ts(12,4): error TS2390: Constructor implementation is missing.                                                      \n                                                                                                                                                    \ni ｢wdm｣: Compiling...                                                                                                                               \n                                                                                                                                                    \nDate: 2019-04-04T20:24:42.602Z - Hash: 69b188790de03f269b5c - Time: 339ms                                                                           \n5 unchanged chunks                                                                                                                                  \nchunk {main} main.js, main.js.map (main) 28.1 kB [initial] [rendered]                                                                               \ni ｢wdm｣: Compiled successfully.                                                                                                                     \ni ｢wdm｣: Compiling...                                                                                                                               \ni ｢wdm｣: wait until bundle finished: /styles.js.map                                                                                                 \ni ｢wdm｣: wait until bundle finished: /vendor.js.map                                                                                                 \n 95% emitting CopyPlugin                                                                                                                            \nERROR in src/app/header/header.component.ts(12,4): error TS2390: Constructor implementation is missing.                                             \n                                                                                                                                                    \ni ｢wdm｣: wait until bundle finished: /main.js.map                                                                                                   \n                                                                                                                                                    \nDate: 2019-04-04T20:24:43.578Z - Hash: 69b188790de03f269b5c - Time: 249ms                                                                           \n6 unchanged chunks                                                                                                                                  \ni ｢wdm｣: Compiled successfully.                                                                                                                     \n                                                                                                                                                    \nERROR in src/app/header/header.component.ts(12,4): error TS2390: Constructor implementation is missing.                                             \n                                                                                                                                                    \n^CTerminate batch job (Y/N)? y                                                                                                                      \n                                                                                                                                                    \nC:\\Users\\tdellorusso\\OneDrive - Commvault\\UsSupportLabChange\\ussuplabchange>",
+			"settings":
+			{
+				"buffer_size": 27939,
+				"line_ending": "Windows",
+				"name": " ",
+				"scratch": true
+			}
+		},
+		{
+			"file": "/C/Users/tdellorusso/OneDrive - Commvault/UsSupportLabChange/ussuplabchange/angular.json",
+			"settings":
+			{
+				"buffer_size": 4013,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/tdellorusso/OneDrive - Commvault/UsSupportLabChange/ussuplabchange/src/app/header/header.component.ts",
+			"settings":
+			{
+				"buffer_size": 364,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Logs/TheMotleyFool/190320-465/sendLogFiles_F56CD_2019_04_04_09_04_08_380827/cvmedia02/SystemInfo_1554383091/1554383091_GalaxyRegistry.txt",
+			"settings":
+			{
+				"buffer_size": 60901,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Package Control Messages\n========================\n\nSublimeLinter-tslint\n--------------------\n\n  SublimeLinter-tslint\n  -------------------------------\n  This linter plugin for SublimeLinter provides an interface to tslint.\n  \n  Please read the installation instructions at:\n  \n  https://github.com/SublimeLinter/SublimeLinter-tslint\n",
+			"settings":
+			{
+				"buffer_size": 333,
+				"line_ending": "Windows",
+				"name": "Package Control Messages",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"file": "/C/Users/tdellorusso/OneDrive - Commvault/UsSupportLabChange/ussuplabchange/src/app/app.component.ts",
+			"settings":
+			{
+				"buffer_size": 218,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"ter",
+				"Terminus: Open Default Shell in View"
+			],
+			[
+				"",
+				"AngularJS: Rebuild Search Index"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: di",
+				"Package Control: Discover Packages"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			]
+		],
+		"width": 412.0
+	},
+	"console":
+	{
+		"height": 124.0,
+		"history":
+		[
+			"terminus-open",
+			"ng serve"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/tdellorusso/OneDrive - Commvault/UsSupportLabChange/ussuplabchange",
+		"/C/Users/tdellorusso/OneDrive - Commvault/UsSupportLabChange/ussuplabchange/src",
+		"/C/Users/tdellorusso/OneDrive - Commvault/UsSupportLabChange/ussuplabchange/src/app",
+		"/C/Users/tdellorusso/OneDrive - Commvault/UsSupportLabChange/ussuplabchange/src/app/header"
+	],
+	"file_history":
+	[
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/todo list",
+		"/C/Users/tdellorusso/Desktop/ffdfsdf.txt",
+		"/C/Logs/ConnecticutChildrensMedicalCenter/190322-565/sendLogFiles_FA135_2019_03_22_11_50_27_405280/bakinfrch01p/CvDiagnostics/FwConfig.txt",
+		"/C/Users/tdellorusso/Downloads/Install_Fail_02APR19.txt",
+		"/C/Users/tdellorusso/Downloads/CMode_licenses_9.5.txt",
+		"//tarunkumar/Logs/190322-443/sendLogFiles_F6864_2019_03_22_12_24_26_3597625/totcvsrv01/CvDiagnostics/FwConfig.txt",
+		"/C/Logs/AlixPartners/190315-707/237939/s-ch-e-cvma-01/CvDiagnostics/FwConfig.txt",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v2.3/src/js/app/carousel/carousel.component.js",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v2.3/src/js/app/rightside/rightside.component.js",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v2.3/src/css/style.css",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v2.3/src/templates/rightside.html",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v2.3/src/js/app/app.module.js",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v2.3/src/index.html",
+		"/C/Logs/WGLHoldingsInc/190312-239/sendLogFiles_FD087_2019_03_12_05_59_58_2560432/stwsvbak002/SystemInfo_1552384804/1552384804_GalaxyRegistry.txt",
+		"/C/Users/tdellorusso/Downloads/iotest/instresults.csv",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v2.3/src/templates/newsfeed.html",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v3.0_node/mc4pi/src/app/app.component.html",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v3.0_node/mc4pi/src/styles.css",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v3.0_node/mc4pi/angular.json",
+		"/C/Logs/MedicinesDiscoveryCatapultLtd/190307-532/sendLogFiles_FEC52_2019_03_07_15_47_47_12344/mdc-commserve/CvDiagnostics/FwConfig.txt",
+		"/C/Logs/MedicinesDiscoveryCatapultLtd/190307-532/sendLogFiles_FEC52_2019_03_07_15_47_47_12344/mdc-gig-stor1_logs/FwConfig.txt",
+		"//tarunkumar/Logs/190227-131/sendLogFiles_F7F09_2019_03_06_16_05_49_1125943/mm-cvma-1/SystemInfo_1551909953/1551909953_ea0_HyperVConfig.txt",
+		"/C/Users/tdellorusso/AppData/Local/Temp/7zO88859B78/PIEInfo.txt",
+		"/C/Users/tdellorusso/Documents/20190228-Phillips 66 - FF58E - V11 SP13+ - 190129-615.121114535674295(121114535674295646)/Chat.txt",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v2.3/src/js/app/bottomrow/bottomrow.component.js",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/repo/scraps",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v2.3/src/templates/bottomrow.html",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v3.0 node/Config.ru",
+		"/C/Users/tdellorusso/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v2.3/src/js/app/rightside/rightside.module.js",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v2.3/src/js/app/app.config.js",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/repo/Snippets/newsfeedscrap.html",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v2.3/src/js/app/feedmodule/feedmodule.module.js",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v2.3/src/js/lib/feeds.js",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4Client/v2.0/src/index.html",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v2.3/src/templates/newsfeedscrap.html",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v2.2/src/json/carousel.json",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v2.2/src/json/carouselold.json",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v2.2/src/templates/header.html",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v2.2/src/index.html",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v2.2/src/js/app/header/header.component.js",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v2.2/src/templates/carousel.html",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v2.2/src/js/app/carousel/carousel.component.js",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v1/src/script.js",
+		"/C/Logs/OttoJunkerGmbH/181025-339/v11SP12_Available_Diag3513/v11SP12_Available_Diag3513_WinX64/Windowsx64/Updates/WinX64_11.0.0B80-SP12_PreRelease-3513-GUI/Config/update.ini",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v2.2/src/test.html",
+		"/C/Users/tdellorusso/Downloads/out.txt",
+		"/C/Users/tdellorusso/AppData/Local/Microsoft/Windows/INetCache/Content.Outlook/HWIXMWOE/out.txt",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v2.2/src/js/app/bottomrow/bottomrow.component.js",
+		"/C/Logs/SmithsBusinessInformationServicesLimited/180906-500/sendLogFiles_FBFCD_2018_11_16_13_18_35_2816772/cuscscvma01/SystemInfo_1542395917/1542395917_GalaxyRegistry.txt",
+		"/C/Logs/SmithsBusinessInformationServicesLimited/180906-500/sendLogFiles_FBFCD_2018_11_16_13_18_35_2816772/JSLTSFS01/SystemInfo_1542395917/1542395917_GalaxyRegistry.txt",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v2.1/src/js/app/bottomrow/bottomrow.component.js",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v2.1/src/templates/carousel.html",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v2.1/src/js/app/carousel/carousel.component.js",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v2.1/src/js/utils/dirtojson/dirtojson.directive.js",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v2.1/src/js/utils/imgparse.js",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v2.1/src/templates/local/carousel.json",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v2.1/src/js/utils/dirtjson/dirtojson.directive.js",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v2.1/src/js/utils/dirtjson/dirtojson.module.js",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v2.1/src/index.html",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v2.1/src/css/style.css",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v2.1/src/js/app/header/header.module.js",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v2.1/src/js/app/header/header.component.js",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v2.1/src/local/carousel.json",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v2.1/src/templates/bottomrow.html",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/.gitattributes",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/.git/index",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/.git/config",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v2.1/src/templates/carousel1.html",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v2.1/src/js/utils/dir2json.php",
+		"/C/Users/tdellorusso/Downloads/dir2json-master/dir2json.php",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v2.1/src/templates/slides/files to json.js",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v2/src/templates/carousel.html",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v2 .1/src/templates/carousel.html",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v2 .1/src/templates/carousel1.html",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v2 .1/src/js/app/carousel/carousel.component.js",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v2/src/css/style.css",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v2/src/templates/carousel1.html",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v2/src/templates/bottomrow.html",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v2/src/index.html",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v2/src/js/app/carousel/carousel.component.js",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v2/src/js/app/header/header.component.js",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v2/src/templates/header.html",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v2/src/js/app/bottomrow/bottomrow.component.js",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v2/src/scraps",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v2/src/templates/local/mod.json",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v2/src/local/Tinton_Falls.json",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v2/src/js/app/app.module.js",
+		"/C/Users/tdellorusso/OneDrive - Commvault/Documents/trust policy.json",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v2/src/js/app/innercarousel/innercarousel.module.js",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v2/src/js/app/innercarousel/innercarousel.component.js",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v1/src/index.html",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v1.5/src/test",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v1.5/src/carousel.json",
+		"/C/Users/tdellorusso/AppData/Roaming/Sublime Text 3/Packages/CodeFormatter/Default (Windows).sublime-keymap",
+		"/C/Users/tdellorusso/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v1.5/src/index.html",
+		"/C/Users/tom/Desktop/carousel.html",
+		"//tsclient/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v2/src/templates/header.html",
+		"//tsclient/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v1/src/style.css",
+		"//tsclient/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v1/src/test",
+		"//tsclient/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v1/src/index.html",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v1/index.html",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v2/src/js/app/carousel/carousel.module.js",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v2/src/welcome.html",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v2/src/js/app/app.config.js",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v2/src/js/app/header/header.module.js",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v2/src/js/app/jumborow/jumbo.component.js",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v2/src/templates/jumborow.html",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v2/src/js/app/jumborow/jumbo.module.js",
+		"/C/Users/tdellorusso/OneDrive/Cricks/src/js/app/app.config.js",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4Client/v2/js/app/blog-list/blog-list.module.js",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4Client/v2/js/app/blog-list/blog-list.component.js",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4Client/v2/src/index.html",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/v2/index.html",
+		"/C/Users/tdellorusso/OneDrive/MC4/mgt page/index.html",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/Weather.html",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/carousel.html",
+		"/C/Users/tdellorusso/OneDrive/MC4/MC4pi/index.html",
+		"/C/Users/tdellorusso/Documents/Webrot/MC4/MC4pi/Weather.html",
+		"/C/Users/tdellorusso/Documents/Webrot/MC4/MC4pi/style.css",
+		"/C/Users/tdellorusso/Documents/Webrot/MC4/MC4pi/carousel.html",
+		"/C/Users/tdellorusso/Documents/Webrot/MC4/MC4pi/index.html",
+		"/C/Users/tdellorusso/Documents/Webrot/MC4/MC4pi/test",
+		"/C/Users/tdellorusso/Documents/Webrot/MC4/MC4pi/index_2.html",
+		"/C/Users/tdellorusso/Documents/Webrot/MC4/MC4pi/script.js",
+		"/C/Users/tdellorusso/Documents/Webrot/MC4/MC4pi/bootstrap.css",
+		"/C/Users/tdellorusso/Downloads/HTML5-canvas-projects-master/flip_clock/flip_clock.js"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"pru",
+			"prun",
+			"diag",
+			"gly",
+			"glyf"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 27939,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								27939,
+								27939
+							]
+						],
+						"settings":
+						{
+							"__vi_external_disable": true,
+							"auto_complete": false,
+							"auto_complete_commit_on_tab": false,
+							"bracket_highlighter.clone_locations":
+							{
+							},
+							"bracket_highlighter.ignore": true,
+							"caret_style": "blink",
+							"color_scheme": "Terminus.sublime-color-scheme",
+							"draw_centered": false,
+							"draw_indent_guides": false,
+							"draw_white_space": "none",
+							"gutter": false,
+							"highlight_line": false,
+							"is_widget": true,
+							"scroll_past_end": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"terminus.highlight_counter": 2488,
+							"terminus_view": true,
+							"terminus_view.args":
+							{
+								"auto_close": true,
+								"cmd":
+								[
+									"cmd.exe"
+								],
+								"cwd": "C:\\Users\\tdellorusso\\OneDrive - Commvault\\UsSupportLabChange\\ussuplabchange",
+								"env":
+								{
+									"TERMINUS_SUBLIME": "1",
+									"TERM_PROGRAM": "Terminus-Sublime"
+								},
+								"panel_name": null,
+								"tag": null,
+								"title": "Command Prompt"
+							},
+							"terminus_view.key.ctrl+k": true,
+							"terminus_view.key.ctrl+p": true,
+							"terminus_view.natural_keyboard": true,
+							"terminus_view.panel_name": null,
+							"terminus_view.tag": null,
+							"terminus_view.viewport_y": 1846.0,
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1846.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/tdellorusso/OneDrive - Commvault/UsSupportLabChange/ussuplabchange/angular.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4013,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								903,
+								903
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 195.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/tdellorusso/OneDrive - Commvault/UsSupportLabChange/ussuplabchange/src/app/header/header.component.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 364,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Logs/TheMotleyFool/190320-465/sendLogFiles_F56CD_2019_04_04_09_04_08_380827/cvmedia02/SystemInfo_1554383091/1554383091_GalaxyRegistry.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 60901,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 897.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 333,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								24,
+								24
+							]
+						],
+						"settings":
+						{
+							"auto_indent": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_width": 2,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/Users/tdellorusso/OneDrive - Commvault/UsSupportLabChange/ussuplabchange/src/app/app.component.ts",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 218,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 41.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 115.0
+	},
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "USLAB.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\tdellorusso\\OneDrive\\MC4\\Mgt page.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 300.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
