@@ -90,6 +90,25 @@ function clock();
                 ctx.stroke();
                 ctx.rotate(-pos);
             }
+            
+</script>
+<script type="text/javascript">
+  jQuery(document).ready(function($) {
+  $.ajax({
+  url : "http://api.wunderground.com/api/347e65e73ff7ed15/geolookup/forecast/q/NJ/Tinton_Falls.json",
+  dataType : "jsonp",
+  success : function(parsed_json) {
+  var location = parsed_json['location']['city'];
+  //var temp_f = parsed_json['current_observation']['temp_f'];
+  //alert("Current temperature in " + location + " is: ");
+  }
+  });
+});
+</script>
+<div class="well">
+  <canvas class="rounded" id="canvas" width="600" height="300" style="background-color: #0073B1"></canvas>  
+</div> 
+<!-- <a href='http://www.wunderground.com/cgi-bin/findweather/hdfForecast?query=07724&bannertypeclick=golfv2'><img src='http://weathersticker.wunderground.com/cgi-bin/banner/ban/wxBanner?zip=07724&bannertype=golfv2_cond&course=Suneagles Golf Club' border='1' alt='Click for forecast!' /></a> -->
 
 function timeBar()
 	{
